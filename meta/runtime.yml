@@ -2,7 +2,7 @@
 requires_ansible: ">=2.16.0"
 
 action_groups:
-  everpure.flashblade:
+  purestorage.flashblade:
     - metadata:
         extend_group:
           - everpure.flashblade.everpure.flashblade
