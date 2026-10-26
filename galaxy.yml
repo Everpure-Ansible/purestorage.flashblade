@@ -1,0 +1,19 @@
+---
+namespace: purestorage
+name: flashblade
+version: "1.28.0"
+readme: README.md
+authors:
+  - Everpure
+description: >-
+  Deprecated namespace shim. This collection has been renamed to everpure.flashblade. It contains redirects only and pulls in the new collection as a dependency. Please update playbooks to the everpure.flashblade namespace.
+license:
+  - GPL-3.0-or-later
+tags:
+  - storage
+  - everpure
+  - flashblade
+  - deprecated
+dependencies:
+  "everpure.flashblade": ">=1.27.0,<2.0.0"
+repository: https://github.com/Everpure-Ansible/FlashBlade-Collection
